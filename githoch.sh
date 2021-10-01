@@ -21,7 +21,7 @@ fehler () {
     fi
 }
 git add "${1}"
-echo "Ergebnis add: ${1}"
+echo "Ergebnis add: ${?}"
 #fehler "Das Verzeichnis konnte nicht hochgeladen werden."
 
 DATUM=$(date +%c)
@@ -29,7 +29,7 @@ COMMIT=${2}" --- "${DATUM}
 git commit -m "${COMMIT}"
 #fehler "Der Commit ist fehlgeschlagen"
 
-git push ${3} ${}
+git push ${3} ${4}
 #fehler "Es gibt ein Problem mit dem Brachen"
 
 #for NAME in "${@}"
