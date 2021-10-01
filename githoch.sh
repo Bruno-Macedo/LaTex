@@ -31,42 +31,4 @@ fehler "Der Commit ist fehlgeschlagen"
 git push ${3} ${4}
 fehler "Es gibt ein Problem mit dem Brachen"
 
-#for NAME in "${@}"
-#do
-#    echo "${NAME}"
-   
-#done
 
-#"VERZEICHNIS="${1}"
-
-# git add
-#if [[ "${1}" == "" ]]
-#then
-#    git add .
-#else
-#    git add "${VERZEICHNIS}"
-#fi
-
-#shift
-
-# git commit
-#if [[ "${1}" == "" ]]
-#then
-#    echo "Schreiben Sie bitte eine Nachricht fuer Ihren commit."
-#else
-#	DATE_TIME=$(date +%c)
-#    git commit - "${1} -- ${DATE_TIME}"
-#fi
-
-#shift
-
-# git push
-#ORIGIN="${1}"
-#BRANCH="${2}"
-
-#if [[ "${1}" == "" ]]
-#then
-#    git push 
-#else
- #   git push "${ORIGIN}" "${BRANCH}"
-#fi
