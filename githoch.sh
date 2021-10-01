@@ -26,11 +26,11 @@ fehler "Das Verzeichnis konnte nicht hochgeladen werden."
 DATUM=$(date +%c)
 COMMIT=${2}" --- "${DATUM}
 git commit -m "${COMMIT}"
-echo "Ergebnis commit: ${?}"
-
-#fehler "Der Commit ist fehlgeschlagen"
+fehler "Der Commit ist fehlgeschlagen"
 
 git push ${3} ${4}
+echo "Ergebnis push: ${?}"
+
 #fehler "Es gibt ein Problem mit dem Brachen"
 
 #for NAME in "${@}"
