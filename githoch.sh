@@ -6,7 +6,7 @@ usage () {
     echo "Nutzung: ${0} [VERZEICHNIS] '[COMMIT-text]' [REPOSITORY] [BRANCHE]" >&2
     echo "Beispiel: githoch . 'Das ist ein Commit' origin branche-name" >&2
     echo 'Falls [REPOSITORY] und [BRANCHE] leer sind, dann wird zum origin gepushed' >&2
-    exit 1
+    
 }
 
 
@@ -21,12 +21,13 @@ fehler () {
     fi
 }
 git add "${1}"
-echo "Ergebnis add: ${?}"
-#fehler "Das Verzeichnis konnte nicht hochgeladen werden."
+fehler "Das Verzeichnis konnte nicht hochgeladen werden."
 
 DATUM=$(date +%c)
 COMMIT=${2}" --- "${DATUM}
 git commit -m "${COMMIT}"
+echo "Ergebnis commit: ${?}"
+
 #fehler "Der Commit ist fehlgeschlagen"
 
 git push ${3} ${4}
