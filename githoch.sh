@@ -11,6 +11,8 @@ usage () {
 
 
 fehler () {
+    usage
+    echo
     local MESSAGE="${@}"
     if [[ "${?}" -ne 0 ]]
     then
@@ -19,14 +21,16 @@ fehler () {
     fi
 }
 git add "${1}"
-fehler "Das Verzeichnis konnte nicht hochgeladen werden."
+echo "Ergebnis add: ${1}"
+#fehler "Das Verzeichnis konnte nicht hochgeladen werden."
 
 DATUM=$(date +%c)
-git commit -m "${2} -- ${DATUM} "
-fehler "Der Commit ist fehlgeschlagen"
+COMMIT=${2}" --- "${DATUM}
+git commit -m "${COMMIT}"
+#fehler "Der Commit ist fehlgeschlagen"
 
-git push "${3}" "${4}"
-fehler "Es gibt ein Problem mit dem Brachen"
+git push ${3} ${}
+#fehler "Es gibt ein Problem mit dem Brachen"
 
 #for NAME in "${@}"
 #do
