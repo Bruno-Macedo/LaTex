@@ -11,7 +11,7 @@ usage () {
 
 
 fehler () {
-    usage
+   # usage
     echo
     local MESSAGE="${@}"
     if [[ "${?}" -ne 0 ]]
@@ -29,9 +29,7 @@ git commit -m "${COMMIT}"
 fehler "Der Commit ist fehlgeschlagen"
 
 git push ${3} ${4}
-echo "Ergebnis push: ${?}"
-
-#fehler "Es gibt ein Problem mit dem Brachen"
+fehler "Es gibt ein Problem mit dem Brachen"
 
 #for NAME in "${@}"
 #do
