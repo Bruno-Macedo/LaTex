@@ -1,20 +1,42 @@
-\documentclass[pdftex, a4paper]{scrartcl}
-\usepackage{ngerman}
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-%x\usepackage{parskip}
-\usepackage{array}
-\usepackage {graphicx}
 
-\title{Erster richtiger Text}
-\author{Bruno Macedo da Silva}
-\author{inf3645 - Matrikelnr.}
+
+\input{header.tex}
 
 \begin{document}
+    \begin{titlepage}
+        \vspace*{7cm}
+        \begin{center}
+            \Huge
+            Abschlussarbeit mit LaTex\\
+            \vspace{1cm}
+            \large
+            Version 2.2
+            \vspace{2cm}
+            Bruno Macedo da Silva <inf3645@hs-worms.de>
 
-    \maketitle
+        \end{center}
+        \normalsize
+        \vfill
+        Copyright (C) 2020 Bruno Macedo da Silva.
+
+        Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla. bla bla bla bla bla bla bla bla. 
+        bla bla bla bla bla bla bla bla. bla bla bla bla bla bla bla bla. bla bla bla bla bla bla.bla bla.
+
+        bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla.
+        bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla.
+        bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla .
+
+
+        bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla.
+
+
+    \end{titlepage}
+
+    
     
     \tableofcontents
+    \listoffigures
+    \listoftables
 
     \section{Überschrift 1}
 
@@ -131,5 +153,7 @@
         \caption{Diese zweite ist auch nicht besser.}
         \label{tbl:beispieltabelle1}
     \end{table}
+
+    \include{Ueberschrift5.tex}
     
 \end{document}
