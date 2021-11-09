@@ -1,0 +1,24 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\citename{Schaeffler, }2008]{refbook:JSDS}
+{\sc Schaeffler, Jimmy}. 2008.
+\newblock {\em {Digital Signage: Software, Networks, Advertising, and Displays
+  a Primer for Understanding the Business}}.
+\newblock Focal Press.
+
+\bibitem[\protect\citename{Tanenbaum, }2009]{refbook:ATMS}
+{\sc Tanenbaum, Andrew~S.} 2009.
+\newblock {\em {Moderne Betriebssysteme}}. 3. aktualisierte auflage edn.
+\newblock Pearson Studium.
+
+\bibitem[\protect\citename{Wendzel, }2018]{refbook:SWIS}
+{\sc Wendzel, Steffen}. 2018.
+\newblock {\em {IT-Sicherheit für TCP/IP- und IoT-Netzwerke}}. 1 edn.
+\newblock Springer Vieweg.
+
+\bibitem[\protect\citename{Woehe \& Kurz, }2021]{refbook:JNKD}
+{\sc Woehe, Jens~Marcus, \& Kurz, Eberhard}. 2021.
+\newblock {\em {Krisen in Digitalprojekten erfolgreich managen}}. 1 edn.
+\newblock Hanser.
+
+\end{thebibliography}
