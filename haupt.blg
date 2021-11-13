@@ -1,0 +1,5 @@
+[0] Config.pm:304> INFO - This is Biber 2.14 (beta)
+[0] Config.pm:307> INFO - Logfile is 'haupt.blg'
+[114] biber:322> INFO - === Sun Nov 14, 2021, 00:16:09
+[329] Utils.pm:309> ERROR - Cannot find 'haupt.bcf'!
+[330] Biber.pm:132> INFO - ERRORS: 1

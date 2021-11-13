@@ -1,14 +1,28 @@
-\documentclass[pdftex, a4paper]{scrartcl}
+\documentclass[pdftex, a4paper]{article}
 \usepackage{ngerman}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-%x\usepackage{parskip}
 \usepackage{array}
-\usepackage {graphicx}
-\usepackage{mathtools}
 \usepackage{subfiles}
 \usepackage{url}
 \usepackage{hyperref}
 \usepackage{parskip}
-\usepackage[nottoc,notlot,notlof]{tocbibind}
-\linespread{1}
+\setlength{\parskip}{1em}
+\usepackage{xurl}
+
+\usepackage[section,numbib,nottoc,notlof,notlot,]{tocbibind}
+%\usepackage[nottoc,notlot,notlof]{tocbibind}
+\usepackage {graphicx}
+\usepackage{xcolor}
+\usepackage{setspace}
+\linespread{1.5}
+\usepackage{geometry}
+\geometry{
+    a4paper,
+    right=50mm,
+    bottom=50mm,
+}
+\usepackage{float}
+\usepackage{etoolbox}
+\AtBeginEnvironment{thebibliography}{\linespread{1}\selectfont}
+
