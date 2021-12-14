@@ -1,0 +1,25 @@
+\documentclass{report}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\usepackage[toc,acronym]{glossaries}
+
+\makeglossaries
+
+\newglossaryentry{sample}{name={sample},description={an example}}
+\newacronym{ex}{ex}{example}
+
+\begin{document}
+\tableofcontents
+
+\chapter{Sample Chapter}
+\gls{sample}, \gls{ex}.
+
+\printglossaries
+
+\appendix
+\chapter{Sample Appendix}
+
+\gls{sample}, \gls{ex}.
+\end{document}

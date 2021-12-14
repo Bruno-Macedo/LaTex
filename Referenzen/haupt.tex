@@ -1,15 +1,20 @@
-\input{head.tex}
-%\addbibresource{referenzen.bib}
+\input{head}
+
 
 \begin{document}
     \include{titelseite}
     \tableofcontents
-    \listoffigures
-    \listoftables
-    \include{kapitel1}
-    \include{kapitel2}
-    \nocite{*}
-    \bibliography{referenzen}
+    \newpage
+    %\listoffigures % Momentam haben wir keine
+   % \listoftables % Momentam haben wir keine
+   % \include{1_Einfuehrung}
+  %  \include{2_Ziele}
+  %  \include{3_Stand_der_Forschung}
+   \include{kapitel1}
+   % \include{5_Forschungsplan}
+   % \include{6_Relevanz}
+   % \nocite{*}
+   \bibliography{refart,refbook,refmisc}
     \bibliographystyle{apalike}
-    %\printbibliography
+        
 \end{document}

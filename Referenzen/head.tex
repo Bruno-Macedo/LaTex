@@ -1,4 +1,4 @@
-\documentclass[pdftex, a4paper]{article}
+\documentclass[pdftex, a4paper]{scrartcl}
 \usepackage{ngerman}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
@@ -9,9 +9,7 @@
 \usepackage{parskip}
 \setlength{\parskip}{1em}
 \usepackage{xurl}
-
-\usepackage[section,numbib,nottoc,notlof,notlot,]{tocbibind}
-%\usepackage[nottoc,notlot,notlof]{tocbibind}
+\usepackage[nottoc,notlot,notlof]{tocbibind}
 \usepackage {graphicx}
 \usepackage{xcolor}
 \usepackage{setspace}
@@ -25,4 +23,9 @@
 \usepackage{float}
 \usepackage{etoolbox}
 \AtBeginEnvironment{thebibliography}{\linespread{1}\selectfont}
+\usepackage{endnotes}
+\interfootnotelinepenalty=10000
+\usepackage{pdflscape}
 
+
+\usepackage{fancyhdr} 
