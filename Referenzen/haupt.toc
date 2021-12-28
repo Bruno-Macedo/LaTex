@@ -1,0 +1,17 @@
+\contentsline {section}{Abstract}{3}{section*.2}%
+\contentsline {section}{\numberline {1}Stand der Technik}{5}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Drahtlose Verbindungen und Sicherheit bei Bezahlungen}{5}{subsection.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.1}Angriffsmöglichkeit auf nfc}{5}{subsubsection.1.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.2}Gegenmaßnahmen für die Härtung von drahtlose Verbindung}{6}{subsubsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.2}Anwendung von Smartcards und sicheres Bezahlen}{7}{subsection.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1}Angriffsmöglichkeit auf Smartcards}{8}{subsubsection.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.2}Gegenmaßnahmen für die Härtung von Smartcards}{8}{subsubsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.3}Fazit}{9}{subsection.1.3}%
+\contentsline {section}{\numberline {2}Forschungsplan}{10}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Durchführung von Experimenten}{11}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Angriff und Härtungsmaßnahme einer drahtlosen Server}{11}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}Angriff und Härtungsmaßnahme von Smartcard}{12}{subsubsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.2}Beobachtung von Angriffsmöglichkeiten}{12}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Interview mit IT-SicherheitsFirmen}{13}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Literaturrecherche}{13}{subsection.2.4}%
+\contentsline {section}{Literaturverzeichnis}{15}{section*.3}%

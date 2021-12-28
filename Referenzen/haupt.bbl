@@ -1,0 +1,77 @@
+\begin{thebibliography}{}
+
+\bibitem[Alrawais, 2020]{refart:ALSI}
+Alrawais, A. (2020).
+\newblock {Security Issues in Near Field Communications (NFC)}.
+\newblock {\em {International Journal of Advanced Computer Science and
+  Applications}}, 11(11).
+\newblock \url{http://dx.doi.org/10.14569/IJACSA.2020.0111176}.
+
+\bibitem[{Bundesamt für Sicherheit in der Informationstechnik},
+  2020]{booklet:BSSE}
+{Bundesamt für Sicherheit in der Informationstechnik} (2020).
+\newblock {Social Engineering – der Mensch als Schwachstelle}.
+\newblock
+  \url{https://www.bsi.bund.de/DE/Themen/Verbraucherinnen-und-Verbraucher/Cyber-Sicherheitslage/Methoden-der-Cyber-Kriminalitaet/Social-Engineering/social-engineering_node.html}.
+
+\bibitem[Chikofsky and Cross, 1990]{refart:CHRE}
+Chikofsky, E. and Cross, J. (1990).
+\newblock Reverse engineering and design recovery: a taxonomy.
+\newblock {\em IEEE Software}, 7(1):13--17.
+\newblock \url{https://ieeexplore.ieee.org/abstract/document/43044}.
+
+\bibitem[Farrell, 1996]{refip:JFSB}
+Farrell, J. (1996).
+\newblock {Smartcards become an international technology}.
+\newblock In {\em {Proceedings 13th TRON Project International Symposium /TEPS
+  '96}}, pages 134--140.
+\newblock \url{https://doi.org/10.1109/TRON.1996.566204}.
+
+\bibitem[Matthies et~al., 2015]{refip:CMBM}
+Matthies, C., Pirl, L., Azodi, A., and Meinel, C. (2015).
+\newblock Beat your mom at solitaire — a review of reverse engineering
+  techniques and countermeasures.
+\newblock In {\em 2015 6th IEEE International Conference on Software
+  Engineering and Service Science (ICSESS)}, pages 1094--1097.
+\newblock \url{https://ieeexplore.ieee.org/document/7339242}.
+
+\bibitem[Singh, 2020]{refart:NFNK}
+Singh, N.~K. (2020).
+\newblock {Near-field Communication (NFC)}.
+\newblock {\em Information Technology and Libraries}, 39(2).
+\newblock \url{https://doi.org/10.6017/ital.v39i2.11811}.
+
+\bibitem[Steffen, 2012]{refmas:ASSS}
+Steffen, A. (2012).
+\newblock {Sicherheit Smartcard-basierter Zugangskontrollsysteme}.
+\newblock Master's thesis, Ruhr-Universität Bochum, Universitätsstraße 150,
+  44801 Bochum.
+\newblock
+  \url{https://www.emsec.ruhr-uni-bochum.de/media/attachments/files/2012/04/Master-Arbeit-public.pdf}.
+
+\bibitem[Tabet and Ayu, 2016]{refip:NTAS}
+Tabet, N.~E. and Ayu, M.~A. (2016).
+\newblock Analysing the security of nfc based payment systems.
+\newblock In {\em {2016 International Conference on Informatics and Computing
+  (ICIC)}}, pages 169--174.
+\newblock \url{http://dx.doi.org/10.1109/IAC.2016.7905710}.
+
+\bibitem[Tanembaum, 2009]{refbook:ATMS}
+Tanembaum, A.~S. (2009).
+\newblock {\em {Moderne Betriebssysteme}}.
+\newblock Pearson, München.
+
+\bibitem[Wendzel, 2018]{refbook:SWIS}
+Wendzel, S. (2018).
+\newblock {\em {IT-Sicherheit für TCP/IP- und IoT-Netzwerke}}.
+\newblock Springer Vieweg, Wiesbaden.
+
+\bibitem[Yildirim and Varol, 2019]{refip:NYRS}
+Yildirim, N. and Varol, A. (2019).
+\newblock {A Research on Security Vulnerabilities in Online and Mobile Banking
+  Systems}.
+\newblock In {\em {2019 7th International Symposium on Digital Forensics and
+  Security (ISDFS)}}, pages 1--5.
+\newblock \url{http://dx.doi.org/10.3390/sym12081344}.
+
+\end{thebibliography}

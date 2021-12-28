@@ -5,16 +5,16 @@
     \include{titelseite}
     \tableofcontents
     \newpage
-    %\listoffigures % Momentam haben wir keine
-   % \listoftables % Momentam haben wir keine
-   % \include{1_Einfuehrung}
-  %  \include{2_Ziele}
-  %  \include{3_Stand_der_Forschung}
+    \phantomsection
+    \addcontentsline{toc}{section}{Abstract}
+    \include{abstract}
+    \newpage
+    
    \include{kapitel1}
-   % \include{5_Forschungsplan}
+   \include{kapitel2}
    % \include{6_Relevanz}
    % \nocite{*}
    \bibliography{refart,refbook,refmisc}
-    \bibliographystyle{apalike}
+   \bibliographystyle{apalike}
         
 \end{document}

@@ -1,26 +1,115 @@
-\section{Kapitel 2}
+\section{Forschungsplan}
 
-    Satz 2, Satz 2Satz 2, Satz 2Satz 2, Satz 2Satz 2, Satz 2Satz 2, Satz 2Satz 2, Satz 2Satz 2, Satz 2Satz 2, Satz 2Satz 2, Satz 2Satz 2, 
-    Satz 2, Satz 2Satz 2, Satz 2Satz 2, Satz 2Satz 2, Satz 2Satz 2, Satz 2.
+Das Thema Netzwerksicherheit beinhaltet viele Forschungsrichtungen, die zu umfangreich für eine einfache
+Recherche sind. Aus diesem Grund und aus Knappheit von Platz konzentrieren wir uns in der geplanten 
+wissenschaftlichen Arbeit auf zwei spezifische Aspekte dieses Themas, und zwar auf Schwachstellen und 
+auf Härtungsmaßnahmen von nfc und von Smartcards. Um an vertrauenswürdige und wissenschaftliche
+Informationen für die geplante wissenschaftliche Arbeit zu gelangen, werden wir folgende Dinge durchführen:
 
-    Meine Liste \textbf{NUMMER}:
-    \begin{enumerate}
-        \item Nummer 1
-        \item Nummer 2
-        \item Nummer 3
-        \begin{enumerate}
-            \item Nummer 3.1
-            \item Nummer 3.2
-            \item Nummer 3.3
-        \end{enumerate}
-        \item Nummer 4
-    \end{enumerate}
+\begin{itemize}
+  \item Durchführung von Experimenten mit Smartcards und nfc
+  \item Beobachtung von Angriffsmöglichkeiten
+  \item Interview mit IT-Sicherheitsfirmen
+  \item Literaturrecherche
+\end{itemize}
 
-    Satz 2, Satz 2Satz 2, Satz 2Satz 2, Satz 2.Satz 2, Satz 2Satz 2, Satz 2Satz 2, Satz 2Satz 2, Satz 2Satz 2, Satz 2Satz 2, Satz 2Satz 2, 
-    Satz 2, Satz 2Satz 2, Satz 2Satz 2, Satz 2Satz 2, Satz 2Satz 2, Satz 2Satz 2, Satz 2Satz 2, Satz 2Satz 2, Satz 2Satz 2, Satz 2
-    Satz 2, Satz 2Satz 2, Satz 2Satz 2, Satz 2Satz 2, Satz 2Satz 2, Satz 2Satz 2, Satz 2Satz 2, Satz 2.
+Der IT-Bereich entwickelte seine eigenen Forschungsmethode auf Basis von anderen Fachrichtungen \cite{inbook:AHDS}.
+Aus diesem Grund müssen sowohl die Recherche als auch ihre Darstellung entsprechend angepasst werden, sodass 
+die Recherche selbst und deren Ergebnisse verständlich präsentiert werden können. Da Forschung und ihre Methoden
+nicht in Stein gemeißelt sind, spielen Flexibilität und Vielfältigkeit der Quellen eine wichtige Rolle für die 
+Entwicklung einer erfolgreichen und glaubwürdigen Untersuchung.
 
 
-    Satz 2, Satz 2Satz 2, Satz 2Satz 2,  \textbf{Satz 2Satz 2, Satz 2Satz 2, Satz 2Satz 2, Satz 2Satz 2}, Satz 2Satz 2, Satz 2Satz 2, Satz 2Satz 2,
-    Satz 2, Satz 2Satz 2, Satz 2Satz 2, Satz 2Satz 2, Satz 2Satz 2, Satz 2Satz 2, Satz 2Satz 2, Satz 2Satz 2, Satz 2Satz 2, Satz 2Satz 2, 
-    Satz 2, Satz 2Satz 2, Satz 2Satz 2, Satz 2Satz 2, Satz 2.
+Jedes Element der geplanten wissenschaftlichen Arbeit soll so konzipert werden, sodass sie der Richtlinien von
+\cite{refip:SGRM} für die Entwicklung von Forschungen im IT-Bereich entsprechen. Die verwendeten Methoden 
+sollen eine theoretische und praktische Abbildung des Objekts dieser Untersuchung zeigen, um ihre Anwendung 
+direkt in der realen Welt darzustellen. Im folgenden werden die diversen Methoden der geplanten wissenschaftlichen 
+Arbeit ausführlich beschrieben. Die folgende Abbildung soll den Rechercheweg der geplanten wissenschaftlichen 
+Arbeit verdeutlichen.
+
+
+
+\subsection{Durchführung von Experimenten}
+\textcolor{red}{\textbf{Hier bin ich mir nicht ganz sicher, ob wir schreiben, als ob wir die Experimenten 
+schon ausgeführt haben oder wie wir es ausführen wollen.}}
+
+Die Tests für die Objekte dieser Untersuchung sollen im Labor der Hochschule Worms durchgeführt werden. 
+Dazu werden 5 Maschinen verwendet, die folgende Rollen übernahmen sollen: Server, Host und Angreifer und 2
+Leerlauf-Maschine oder \textit{Zombie-botnet} \footnote{Leerlaufe, \textit{idle} oder \textit{Zombie-botnet} 
+bezeichnen Maschine, die für Angriff verwendet werden. In den meisten Fälle sind die Nutzer dieser Maschine nicht
+bewusst, dass Angreifer ihre Maschine für diesen Zweck verwenden \cite{refart:XGDD}.}. Der Host soll eine 
+Anfrage an den Server schicken, die eine Simulation von einem Bezahlvorgang darstellen soll. Der Server 
+soll unter normalen Umstände auf diese Anfrage antworten und unter einem Angriff keine Antwort geben.
+Dieses Verfahren findet sowohl bei Drahtlosen Verbindungen als auch bei Smartcards statt.
+
+
+\subsubsection{Angriff und Härtungsmaßnahme einer drahtlosen Server}
+Für dieses Experiment sollen folgende Angriffstechniken verwendet werden: ddos.
+
+Im erstem Experiment wird der Host eine normale Anfrage an den Server schicken. Dieser wird standarmäßig konfiguriert,
+also ohne irgendwelche Sicherheitsmechanismen, wie Authentifizierung, Überprüfung der Anzahl von Verbindungen oder Anfragen
+nach Zertifikaten.
+
+Der erste Angriff wird mithilfe des Tools nmap\footnote{nmap ist eine freie und Open 
+Source Anwendung für die Entdeckung und Sicherheitsüberprüfung von Netzwerken \cite{refst:nmap}.} durchgeführt
+werden. In diesem Angriff benutzt der Angreifer eine weitere Maschine, um sich selbst zu verbergen und, um den 
+Angriff zu verstärken. Der Angreifer schickt gespoofte\footnote{Angreifer verwenden meistens legitimen Adresse 
+von anderen Rechner, um die eigene Identität zu verbergen. In diesem Fall ist die eigene Adresse gefälscht 
+\cite{refst:IPIO}.} Pakete\footnote{Pakete sind im Netzwerk die Einkapselung von Metainformationen, wie Quell-
+und Zieladresse Protokolltyp und Größe die Nutzdaten, wie Text, Videos oder Bilder \cite{refbook:SWIS}.} an 
+die zwei \textit{Zombie} und diese schicken sehr viele kleine Pakete in sehr kürzem Abstand an das Server, 
+um dessen Kapazität auszulasten, sodass er auf keine Anfragen mehr antworten kann \cite{refip:KSDD}. Im 
+folgenden gibt es eine Abbildung zu dieser Angriffstechnik:
+
+
+\subsubsection{Angriff und Härtungsmaßnahme von Smartcard}
+\textbf{Ich würde nur das Beispiel von NFC geben und die anderen nur nach Bedarf hinzufügen, sonst werden wir hier
+viele Seite haben}
+
+\textcolor{red}{\textbf{Vllt sollten wir ein Diagramm von diesem Angriff darstellen.}}
+
+
+\subsection{Beobachtung von Angriffsmöglichkeiten}
+\textbf{Hier können wir sagen, dass wir in einem Labor einige Angriffe durchgeführt haben. Wir beschreiben alle Elementen
+dieses Labor und was wir von diesem Experimenten erwarten. Auch die Quelle für solche Beobachtung.}
+
+Vor dem Angriff konnte der Host normal mit dem Server kommunizieren, also Anfragen schicken und er hat eine Antwort bekommen.
+Während des Angriffes war die Kommunikation mit dem Server entweder sehr langsam oder sogar unterbrochen. In diesem Fall
+bekam der Host selten eine Antwort auf seine Anfrage. In einigen Momenten gab es überhaubt keine Antwort. 
+
+Seitens des Servers wurde das Tool Wireshark\footnote{Wireshark ist eine Anwendung für die Analyse von Networkprotoklle.
+Es beschreibt ein- und ausgehende Pakete und dessen Bestandteile \cite{refst:wisa}.} verwendet, um die Ein- und Ausgehenden
+Pakete zu beobachten und zu analysieren \cite{refart:UBEC}. Unter normalen Umstände kamen die Pakete in einem angemessenen
+Zeitabstand. Während des Angriffes bekam der Server viele kleine Pakete ohne nützlichen Inhalt und in sehr kurzem Zeitabstand.
+Im folgenden gibt es eine Abbildung, wie Wireshark die Kommunikation aufezeichnet hat:
+
+
+Wie \cite{refip:NYRS} vorschlug, Um den Angriff zu verhindern, schlug  \cite{refip:NYRS} vor, den Server erneut 
+zu konfigurieren, indem er nur Anfragen von registrierten Hosts akzeptiert. Nach dieser Anpassung konnte sich 
+der Angreifer nicht mehr mit dem Server verbinden, da er kein registrierter Nutzer war. In der Aufzeichnung 
+on Wireshark wurden nicht angemeldete Pakete direkt verworfen.
+
+\subsection{Interview mit IT-SicherheitsFirmen}
+
+\textbf{Hier schreiben wir, dass wir Person x der Firma y nach dem ihrem Produkt bezüglich auf Sicherheit gefragt haben.
+Vllt. 9 Frage, 3 über das Produkt, 3 über Schwachstelle und 3 über Härtung. Wir brauchen auch am Anfang irgendwelche Zitation
+wie eine wissenschaftliche Interview aussehen sollte.}
+
+\subsection{Literaturrecherche}
+
+Die Literatur bezüglich Netzwerksicherheit, bargeldlose Zahlungsverfahren und Vending Machines, ist in den 
+letzten 20 Jahren deutlich umfangreicher geworden. Da diese Begriffe viele und nahezu unendlich Konzepte 
+decken, gehen wir hier auf spezifische Aspekte dieser Begriffe ein und zwar auf die Sicherheit von drahtlosen 
+Zahlungsmethode und von Smartcards. 
+
+Folgende Quelle trugen zu der Suche nach vertrauenswürdiger Literatur bei:
+
+\begin{itemize}
+    \item ScienceDirect
+    \item Researchg Gate
+    \item IEEE Xplore
+    \item Google Scholar.
+\end{itemize}
+
+Diese Quellen ermöglichten eine allgemein theoretische Kenntnis über das Objekt dieser Untersuchung und dessen aktuellen 
+Stand der Forschung.

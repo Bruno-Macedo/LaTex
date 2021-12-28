@@ -1,0 +1,63 @@
+This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: haupt.aux
+A level-1 auxiliary file: titelseite.aux
+A level-1 auxiliary file: abstract.aux
+A level-1 auxiliary file: kapitel1.aux
+A level-1 auxiliary file: kapitel2.aux
+The style file: apalike.bst
+Database file #1: refart.bib
+Database file #2: refbook.bib
+Database file #3: refmisc.bib
+Warning--I didn't find a database entry for "refbook:WRHC"
+Warning--I didn't find a database entry for "refst:ARES"
+Warning--I didn't find a database entry for "inbook:AHDS"
+Warning--I didn't find a database entry for "refip:SGRM"
+Warning--I didn't find a database entry for "refart:XGDD"
+Warning--I didn't find a database entry for "refst:nmap"
+Warning--I didn't find a database entry for "refst:IPIO"
+Warning--I didn't find a database entry for "refip:KSDD"
+Warning--I didn't find a database entry for "refst:wisa"
+Warning--I didn't find a database entry for "refart:UBEC"
+You've used 11 entries,
+            1935 wiz_defined-function locations,
+            580 strings with 6334 characters,
+and the built_in function-call counts, 4115 in all, are:
+= -- 419
+> -- 111
+< -- 14
++ -- 34
+- -- 34
+* -- 280
+:= -- 700
+add.period$ -- 41
+call.type$ -- 11
+change.case$ -- 70
+chr.to.int$ -- 11
+cite$ -- 11
+duplicate$ -- 195
+empty$ -- 314
+format.name$ -- 51
+if$ -- 860
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 11
+newline$ -- 66
+num.names$ -- 33
+pop$ -- 64
+preamble$ -- 1
+purify$ -- 72
+quote$ -- 0
+skip$ -- 159
+stack$ -- 0
+substring$ -- 251
+swap$ -- 43
+text.length$ -- 4
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 62
+warning$ -- 0
+while$ -- 31
+width$ -- 0
+write$ -- 161
+(There were 10 warnings)
